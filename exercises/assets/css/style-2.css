@@ -1,23 +1,25 @@
 /* global.css: Basic styles for the entire site */
 body {
   margin: 0;
-  padding-left: 5px;
-  background-color: lightblue;
+  padding: 5px;
+  background-color: #800080;
 }
-
-h2 {
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+}
+h2,
+h3 {
   font-family: "Times New Roman", Times, serif;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  font-weight: bold;
-  color: blue;
+  text-transform: capitalize;
+  color: white;
 }
-p {
-  color: #2243b2;
+.container p {
+  color: white;
 }
 a {
-  margin: 0 10px;
-  color: #007acc;
+  color: white;
 }
 @media only screen and (min-width: 200px) and (max-width: 1700px) {
   .container {
